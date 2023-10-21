@@ -45,7 +45,7 @@ fetch(`https://puzzle.mead.io/puzzle`, {}).then((response) => {
         throw new Error('Unable to fetch')
     }
 }).then((data) => {
-    console.log(`Data from Fetch(${data.puzzle})`)
+    // console.log(`Data from Fetch(${data.puzzle})`)
 }).catch((err) => {
     console.log(err)
 })
